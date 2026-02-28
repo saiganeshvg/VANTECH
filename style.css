@@ -322,3 +322,20 @@ html {
     outline: none;
     border: 2px solid #ccc;
 }
+.wrap {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.wrapper .wrap .icon {
+    font-size: 20px;
+}
+.wrapper .wrap:hover {
+    width: 100px;
+    transition: 0.7s;
+}
