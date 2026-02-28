@@ -176,10 +176,11 @@ button:active {
 .contact-left div{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .contact-left div p{
     padding: 10px;
+    margin: auto;
 }
 .row{
     display: flex;
@@ -194,6 +195,7 @@ button:active {
     margin-bottom: 5px;
     color:black;
     font-weight: 400;
+    margin: auto;
 }
 .contact-right input, .contact-right text area{
      width: 70%;
@@ -206,7 +208,7 @@ button:active {
 .contact-right {
     max-width: 800px;
     margin: auto;
-    background-color: #ccc;
+    background-color: #323131;
     padding: 40px;
     border-radius: 30px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
