@@ -196,16 +196,19 @@ button:active {
     font-weight: 400;
 }
 .contact-right input, .contact-right text area{
-    
-   
-    margin-bottom: 17px;
+     width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
     outline: none;
     border: 1px solid #ccc;
+   
+}
+.contact-right {
     max-width: 800px;
     margin: auto;
     background-color: #ccc;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 .contact-left,
