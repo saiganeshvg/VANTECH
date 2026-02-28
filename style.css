@@ -163,6 +163,7 @@ button:active {
 .contact-us{
     width: 80%;
     margin: auto;
+    text-align: center;
 }
 .contact-left{
     flex-basis: 48%;
@@ -182,6 +183,7 @@ button:active {
 .row{
     display: flex;
    flex-direction: column-reverse;
+   align-items: center;
 }
 .head {
     padding-top: 20px;
