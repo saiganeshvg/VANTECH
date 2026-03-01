@@ -353,3 +353,24 @@ html {
     width: 100px;
     transition: 0.7s;
 }
+.line{
+    display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+}
+.contact-cr div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-cr div p{
+    padding: 10px;
+    margin: auto;
+}
+.contact-cr div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:black;
+    font-weight: 300;
+    margin: auto;
+}
