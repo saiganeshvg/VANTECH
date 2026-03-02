@@ -157,7 +157,23 @@ p{
         flex-direction: column;
     }
 }
-
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.service-col img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: 0;
+}
+.service-col{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 .sub-header{
     min-height: 50vh;
     width: 100%;
