@@ -128,14 +128,18 @@ h1{
     font-weight: 600;
 }
 p{
-    color: #777;
+    
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
 
-
+.positions-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
 .sub-header{
     min-height: 50vh;
     width: 100%;
