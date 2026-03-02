@@ -140,6 +140,24 @@ p{
     display: flex;
     justify-content: space-between;
 }
+
+.positions-col{
+    flex-basis: 45%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.positions-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .positions-row{
+        flex-direction: column;
+    }
+}
+
 .sub-header{
     min-height: 50vh;
     width: 100%;
