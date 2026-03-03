@@ -117,7 +117,7 @@ nav .fa{
         padding: 30px;
     }
 }
-.positions{
+.service{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -134,46 +134,32 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-
-.positions-row{
+.service-row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
-
-.positions-col{
+.service-col{
     flex-basis: 45%;
-    background: #fff3f3;
+    background: #b0b4fa;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    transition: 0.5;
 }
-.positions-col:hover{
+.service-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 @media(max-width: 700px){
-    .positions-row{
+    .service-row{
         flex-direction: column;
     }
 }
-.service{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.service-col img{
-    width: 400px;
-    height: auto;
-    display: block;
-    margin-left: 0;
-}
-.service-col{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
+
+
+
+
 .sub-header{
     min-height: 50vh;
     width: 100%;
