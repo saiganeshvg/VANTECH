@@ -157,8 +157,17 @@ p{
     }
 }
 
+@media(max-width: 700px){
+    .service-row{
+        flex-direction: column;
+    }
+}
 
-
+@media(max-width: 700px){
+    .contact-right{
+        flex-direction: column;
+    }
+}
 
 .sub-header{
     min-height: 50vh;
