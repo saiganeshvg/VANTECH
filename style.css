@@ -141,7 +141,7 @@ p{
 }
 .service-col{
     flex-basis: 45%;
-    background: #b0b4fa;
+    background: #c3c5f5;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -157,15 +157,45 @@ p{
     }
 }
 
+
+
 @media(max-width: 700px){
-    .service-row{
+    .contact-right{
+        flex-direction: column;
+    }
+}
+.service-v{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.service-g{
+    flex-basis: 45%;
+    background: #fecc93;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5;
+}
+.service-g:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px){
+    .service-v{
         flex-direction: column;
     }
 }
 
 @media(max-width: 700px){
-    .contact-right{
+    .row{
         flex-direction: column;
+    }
+}
+
+@media(max-width: 700px){
+    .wrapper{
+        flex-direction:row;
     }
 }
 
@@ -274,11 +304,11 @@ button:active {
 .head {
     padding-top: 20px;
 }
-.contact-left div h5{
-    font-size: 20px;
-    margin-bottom: 5px;
+.contact-left div p{
+    font-size: 15px;
+    margin-bottom: 2px;
     color:black;
-    font-weight: 400;
+    font-weight: 300;
     margin: auto;
 }
 .contact-right input, .contact-right text area{
@@ -456,8 +486,8 @@ html {
     padding: 10px;
     margin: auto;
 }
-.contact-cr div h5{
-    font-size: 20px;
+.contact-cr div p{
+    font-size: 15px;
     margin-bottom: 5px;
     color:black;
     font-weight: 300;
