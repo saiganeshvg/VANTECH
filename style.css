@@ -368,10 +368,10 @@ button:active {
 .contact-left div{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .contact-left div p{
-    padding: 10px;
+    padding: 5px;
     margin: auto;
 }
 .row{
@@ -560,10 +560,10 @@ html {
 .contact-cr div{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .contact-cr div p{
-    padding: 10px;
+    padding: 5px;
     margin: auto;
 }
 .contact-cr div p{
