@@ -7,7 +7,7 @@ $message  =  filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
 $host = "localhost";
 $dbusername = "root";
 $dbpassword = "";
-$dbname = "vant";
+$dbname = "vantech1";
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
 if ($conn->connect_error) {
     die('Connect Error ('. $conn->connect_errno .') '.$conn->connect_error);
@@ -16,7 +16,7 @@ if ($conn->connect_error) {
     if ($stmt === false) {
         die('Prepare failed: ' . $conn->error);
     }
-    $stmt->bind_param("ssss", $Enter your name, $Enter email address, $Enter your subject, $Message);
+    $stmt->bind_param("ssss", $name, $email, $subject, $message);
   if ($stmt->execute()) {
     echo "You sent message";
   } else {
