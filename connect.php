@@ -18,7 +18,7 @@ if ($conn->connect_error) {
     }
     $stmt->bind_param("ssss", $name, $email, $subject, $message);
   if ($stmt->execute()) {
-    echo 'Your message has been sent';
+    echo "You have successfully registered";
   } 
   else {
     echo "Error; " . $stmt->error;
