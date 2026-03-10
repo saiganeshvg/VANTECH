@@ -5,7 +5,7 @@ $subject  =  filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
 $message  =  filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
 
 $host = "localhost";
-$dbusername = "gi";
+$dbusername = "root";
 $dbpassword = "";
 $dbname = "vantech1";
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
@@ -17,12 +17,11 @@ if ($conn->connect_error) {
         die('Prepare failed: ' . $conn->error);
     }
     $stmt->bind_param("ssss", $name, $email, $subject, $message);
-  if ($stmt->execute()) {
-    echo "You have successfully registered";
-  } 
-  else {
-    echo "Error; " . $stmt->error;
-  }
+if ($stmt->execute()) {
+    echo "Message sent successfully";
+} else {
+    echo "Error: " . $stmt->error;
+}
   $stmt->close();
   $conn->close();
     }
