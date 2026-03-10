@@ -5,7 +5,7 @@ $subject  =  filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
 $message  =  filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
 
 $host = "localhost";
-$dbusername = "root";
+$dbusername = "gi";
 $dbpassword = "";
 $dbname = "vantech1";
 $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
