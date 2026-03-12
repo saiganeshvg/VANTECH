@@ -33,21 +33,18 @@ Ultimately, you’ll build highly responsive web applications that align with ou
              <p>-Work closely with frontend developers, designers, and product teams.</p>
              <p>-Optimize application performance and troubleshoot technical issues.</p>
            </div>
+            <form action="upload.php" method="POST" enctype="multipart/form-data">
            <div class="applyp" id="apply"><h3>Apply For This Job</h3>
            <div class="python-left">
-                   <form action="">
                      <input type="text" placeholder="First Name" required>
                      <input type="text" placeholder="Last Name" required>
                      <input type="text" placeholder="Preferred First Name" required>
                       <input type="email" placeholder="Email" required>
                      <input type="phone" placeholder="Phone" required>
-                    </textarea>
-                     </form>
             </div>
             <div class="resumeap">
                 <h3>Resume</h3>
-            <label for="file-upload" class="file_upload_button">Attach</label>   
-            <input id="file-upload" type="file"/>
+            <input type="file" name="file">
             </div>
             <div class="coverletter">
                 <h3>Cover Letter</h3>
@@ -56,15 +53,12 @@ Ultimately, you’ll build highly responsive web applications that align with ou
             </div>
             <div class="linkedin">
                 <h3>Linkedin</h3>
-                <form action="">
                     <input type="text" placeholder="Linkedin" required>
-                </form>
             </div>
              <div class="submit-left">
-                   <form action="">
-                    <button type="submit" class="aibtn">Submit</button></form></textarea>
-                    </form>
+                    <button type="submit" class="aibtn" name="submit">Submit</button>
                     </div>
+                    </form>
     </section>
 </body> 
 </html>   
