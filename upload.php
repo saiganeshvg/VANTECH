@@ -1,12 +1,23 @@
 <?php
+include 'dbcon.php';
 if (isset($_POST['submit'])) {
 
-    $file = $_FILES['file'];
-
-    echo "<pre>";
+    $firstname=$_POST["firstname"];
+    $lastname=$_POST["lastname"];
+    $preferredfirstname=$_POST["preferredfirstname"];
+    $email=$_POST["email"];
+    $phone=$_POST["phone"];
+    $file=$_FILES["file"];
+    $file=$_FILES["files"];
+    $linkedin=$_POST["linkedin"];
+   
     print_r($file);
-    echo "</pre>";
 
-    $fileName = $_FILES['file']['name'];
+}else{
+    echo "No button has been clicked";
 
 }
+
+
+   
+
